@@ -8,9 +8,18 @@
 public class fizzbuzz
 {
     public static void main(String[] args) {
-        int n = 100;
-        for (int i = 1; i <= n; i++) {
-            System.out.print(i + " "); 
+        int a = 100;
+        for (int i = 1; i <= a; i++) {
+            System.out.println(i + " ");
+            if (i/3 == ) {
+                System.out.println("fizz");
+            }
+            if (i / 5 == 0) {
+                System.out.println("buzz");
+            }
+            if (i / 15 == 0) {
+                System.out.println("fizzbuzz");
+            }
         }
     }
 }
