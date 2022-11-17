@@ -1,5 +1,5 @@
 public class fizzbuzz
-{
+{ 
     public static void main(String[] args) {
         int counter = 0;
         for (int i = 1; i <= 100; i++) {
@@ -7,15 +7,14 @@ public class fizzbuzz
             String fizz = "";
             String buzz = "";
             if ((i/5) == (double)i/5 && (i/3) == (double)i/3) {
-                fizz = "fizzbuzz";
+                System.out.println ("fizzbuzz");
             } else if ((i/5) == (double)i/5) {
-                buzz = "buzz";
+                System.out.println ("buzz");
             } else if ((i/3) == (double)i/3) {
-                fizz =  "fizz";
-            }
-            System.out.println(i+fizz+buzz);
-                fizz = "fizz";
-                buzz = "buzz";
+                System.out.println ("fizz");
+            } else
+                System.out.println(i);
+            
         }
     }
 }
